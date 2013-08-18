@@ -1,0 +1,30 @@
+{
+  "name": "artstore",
+  "description": "Easy art store",
+  "version": "0.0.1",
+  "author": "Athahar",
+  "maintainers": [
+    {
+      "name": "athahar",
+      "email": "athahar@gmail.com"
+    }
+  ],
+  "homepage": "http://github.com/athahar/artstore",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/athahar/artstore.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongodb": "*",
+    "nodemon":"*",
+    "socket.io":"*"
+  },  
+  "engines": {
+    "node": "0.8.4",
+    "npm": "1.1.49"
+  },
+  "keywords": [
+    "artstore"    
+  ]
+}
