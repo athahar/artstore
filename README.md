@@ -10,4 +10,4 @@ start mongodb instance
 cd /usr/local/mongodb 
 ./bin/mongod
 
-and then start node server.js
+and then start node server.js 
