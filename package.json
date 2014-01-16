@@ -9,6 +9,9 @@
       "email": "athahar@gmail.com"
     }
   ],
+  "scripts": {
+    "start": "nodemon server.js"    
+  },
   "homepage": "http://github.com/athahar/artstore",
   "repository": {
     "type": "git",

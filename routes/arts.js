@@ -41,6 +41,7 @@ exports.findById = function(req,res){
 };
 
 exports.findAll = function(req,res){
+	console.log('Find All arts *********');
 
 	db.collection('arts', function (err, collection) {
 		collection.find().toArray(function (err, items) {
@@ -50,6 +51,8 @@ exports.findAll = function(req,res){
 };
 
 exports.addArt = function(req,res){
+	console.log('Art individual art *********');
+
 	var art = req.body;
 	console.log('Adding art : ' + JSON.stringify(art));
 
